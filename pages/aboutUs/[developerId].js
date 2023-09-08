@@ -11,7 +11,6 @@ const developer = () => {
 
   const devId = router.query.developerId;
   const content = details.filter((item) => item.id == devId);
-  console.log(content);
 
   return (
     <div>
